@@ -1,0 +1,118 @@
+.section2{
+    background-color: #ffffff;
+    display: flex;
+    align-items: flex-start;
+    height: auto;
+    flex-direction: column;
+
+}
+
+p{
+    display: block;
+    margin-block-start: 40px;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.services-title{
+    color: #000000;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 40px;
+    padding-left: 40px;
+}
+
+.content-hold-main1{
+    display: flex;
+   
+    margin: 60px;
+    height: auto;
+    width: auto;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.content-hold-main2{
+    display: flex;
+    margin: 60px;
+    height: auto;
+    width: auto;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+}
+
+
+
+.services-pic{
+    width: 700px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.services-pic2{
+    width: 500px;
+    height: auto;
+    transform: scaleX(-1);
+
+}
+
+.services-title-sub{
+    color: #ba1c1c;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.content-subhold{
+    font-family: 'Nunito', sans-serif;
+    margin: 30px;
+}
+
+.service-button{
+	width: 200px;
+	padding: 15px 0;
+	text-align: center;
+	margin:20px 10px;
+	border-radius:25px;
+	font-weight: bold;
+	border:2px solid #ba1c1c;
+
+	color: #000000;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+}
+
+
+
+.spacer{
+    display: flex;
+    background-color: #ba1c1c;
+    align-items: center;
+    height: 180px;
+}
+
+.spacer-content{
+
+    display: flex;
+    color: #ffffff;
+    font-weight: bolder;
+    font-family: 'Comic Neue', cursive;
+    font-size: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin: 100px;
+    text-transform: uppercase;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.spacer-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 100px;
+}

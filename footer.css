@@ -1,0 +1,135 @@
+.footer{
+    background-color: #18191B;
+    display: flex;
+    align-items: flex-start;
+    height: auto;
+    flex-direction: column;
+
+}
+
+.footer-content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.footer-subcontent{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.input{
+    left: -20px;
+}
+
+.footer-title{
+    color: #ba1c1c;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    
+   
+    
+}
+
+.footer-title2{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    
+    
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.footer-logo{
+    display: flex;
+}
+
+.footer-icon{
+    width: 500px;
+    height: 250px;
+    padding: 20px;
+}
+
+.footer-inquiry{
+    margin: 40px;
+}
+.footer-qoute{
+    color: #ba1c1c;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding-left: 40px;
+    
+}
+
+.contact-tags{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 40%;
+}
+
+.footer-navlinks{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+	text-transform: uppercase;
+    padding: 10px;
+    list-style-type: none;
+    
+}
+ 
+.footer-navlinks li{
+	list-style: none;
+	margin: 0 ;
+	position: relative;
+}
+
+
+.footer-navlinks a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.footer-navlinks a:hover{
+    color: #ba1c1c;
+    transition: 0.2s
+}
+
+.nav-image{
+    width: 24px;
+    height: 24px;
+}
+
+.fab-insta{
+    width: 24px;
+    height: 24px;
+    background-image: url(images/instagram.png);
+}
+
+.fab-facebook{
+    width: 24px;
+    height: 24px;
+    background-image: url(images/facebook.png);
+}
+
+.fab-youtube{
+    width: 24px;
+    height: 24px;
+    background-image: url(images/youtube.png);
+}
+
+.fab-titok{
+    width: 24px;
+    height: 24px;
+    background-image: url(images/tik-tok.png);
+}

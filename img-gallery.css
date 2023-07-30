@@ -1,0 +1,39 @@
+body{
+    overflow-x: hidden;
+}
+
+section {
+    --childs: 5;
+    --gap: 10px;
+    background: #18191B;
+    border: 10px solid;
+    border-color:#18191B;
+    width: 98%;
+    display: flex;
+    gap: var(--gap);
+    margin-bottom: 10px;
+}
+  
+.box {
+    width: calc((100% / var(--childs)));
+    box-sizing: border-box;
+    height: min(30vmin, 250px);
+    background-color: #18191B;
+    cursor: pointer;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: width 300ms 50ms ease-in-out;
+}
+  
+.box:hover {
+    width: calc((100% / (var(--childs) - 2)));
+}
+
+
+
+
+section:has(.box:hover) .box:not(:hover) {
+    width: calc((100% / (var(--childs) + 1)));
+}
+  

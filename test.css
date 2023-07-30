@@ -1,0 +1,70 @@
+.content {
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .card {
+    margin: 20px;
+    width: 700px;
+    padding: 20px;
+    border-radius: 3px;
+    background-color: white;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  }
+
+
+  .firstinfo {
+    display: flex;
+    align-items: center;
+  }
+
+  .firstinfo img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+  }
+
+  .profileinfo {
+    padding: 0px 20px;
+  }
+
+  .profileinfo h1 {
+    font-size: 1.8em;
+  }
+
+  .profileinfo h3 {
+    font-size: 1.2em;
+    color: #009688;
+    font-style: italic;
+  }
+
+  .profileinfo p.bio {
+    padding: 10px 0px;
+    color: #5A5A5A;
+    line-height: 1.2;
+    font-style: normal;
+  }
+
+  .badgescard {
+    padding: 10px 20px;
+    border-radius: 3px;
+    background-color: #ECECEC;
+    width: 480px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .badgescard span {
+    font-size: 1.6em;
+    margin: 0px 4px;
+    opacity: 0.6;
+  }
+
+  .skills{
+    display: flex;
+    align-items: center;
+  }

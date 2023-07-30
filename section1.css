@@ -1,0 +1,38 @@
+
+.section1{
+    background-color: #ba1c1c;
+    display: flex;
+    align-items: center;
+    height: 780px;
+  
+}
+
+.intro{
+    margin: 90px;
+    color: white;
+}
+
+.intro-title{
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+.header2{
+    margin:0;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+}
+
+.intro-content{
+    font-family: 'Nunito', sans-serif;
+}
+
+.intro-graphic{
+    padding-right: 90px;
+    width: 513px;
+    height: auto;
+
+}
