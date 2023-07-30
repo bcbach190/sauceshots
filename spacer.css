@@ -1,6 +1,7 @@
 
 .spacer{
     background-color: #18191B;
+    
 }
 
 .spacer-content{
@@ -21,97 +22,3 @@
     margin: 10px;
 }
 
-.spacer-text h1 span{
-    color:#ba1c1c;
-}
-
-/*
-.center
-{
-  margin-top: 5%; 
-  translate(-50%, -50%);
-  text-align: center;
-}
-
-h1
-{
-  text-transform: uppercase;
-  font-size: 12em;
-  color: rgba(0,0,0,.2);
-  position: relative;
-  margin: 0 auto;
-  padding: 0;
-  transform-origin: bottom;
-  transform: skewX(50deg);
-}
-
-.spacer-stuff{
-  margin-block-start: 0em;
-  margin-block-end: 0em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-}
-
-h6
-{
-  letter-spacing: 4.5em;
-  font-size: 2em;
-  color: rgba(0,0,0,0.2);
-  position: relative;
-  margin: auto 0;
-  padding: 0;
-  transform-origin: bottom;
-  transform: skewX(50deg);
-}
-
-h1:before
-{
-  content: attr(data-title);
-  position: absolute;
-  color: #fff;
-  transform-origin: bottom;
-  transform: skewX(-50deg) translate(-70px, 29px) scaleY(1.5);
-}
-
-h6:before
-{
-  letter-spacing: 4.5em;
-  content: attr(data-title1);
-  position: absolute;
-  color: #fff;
-  transform-origin: bottom;
-  transform: skewX(-50deg) translate(-11px, 1px) scaleY(1);
-}
-
-nav .menu {
-  list-style: none;
-  display: flex;
-  transform: translateX(25%);
-}
-
-nav .menu li {
-  display-inline-block;
-  padding: 0 15px;
-}
-
-nav .menu li a {
-  text-decoration: none;
-  text-transform: capitalize;
-  font-size: 20px;
-  color: white;
-  transition: color 0.4s ease;
-}
-
-nav .menu li a:hover {
-   color: crimson;
-   font-size: 20.5px;
-}
-
-.brand {
-  transform: scale(.8);
-}
-
-.brand:hover {
-  transform: scale(1.1);
-}
-*/

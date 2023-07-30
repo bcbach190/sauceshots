@@ -1,13 +1,11 @@
 .project-spotlight{
     background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(images/wp8422241-the-weeknd-blinding-lights-wallpapers.jpg);
-    background-repeat: no-repeat;
-	background-size: 1500px 1200px;
 	background-position: center;
     display: flex;
     align-items: flex-start;
-    height: auto;
     flex-direction: column;
-  
+    width: 100%;
+    background-size: cover;
 }
 
 .intro-title2{
@@ -27,9 +25,19 @@
     margin-top: -30px;
 }
 
-
-
 .spotlight-content{
     display: flex;
     margin: 40px;
+}
+
+.iframe-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.iframe-container iframe {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
