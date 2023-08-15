@@ -25,7 +25,6 @@ p{
 
 .content-hold-main1{
     display: flex;
-   
     margin: 60px;
     height: auto;
     width: auto;
@@ -41,7 +40,6 @@ p{
     flex-wrap: nowrap;
     flex-direction: row-reverse;
 }
-
 
 
 .services-pic{
