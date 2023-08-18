@@ -3,8 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
 	<!-- css and stuff-->
 	<link rel="stylesheet" href="minima_style.css">
+	<link rel="stylesheet" href="navbar.css" >
 	<link rel="stylesheet" href="section1.css">
 	<link rel="stylesheet" href="services.css">
 	<link rel="stylesheet" href="contact.css">
@@ -17,27 +19,23 @@
 	
 	<!-- javascript-->
 	<script> src="email.js"</script>
+
 	<!-- fonts and stuff-->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
-
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap" rel="stylesheet">
-
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Nunito&family=Nunito+Sans:wght@1000&display=swap" rel="stylesheet">
-
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
-
 	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -50,16 +48,17 @@
 </head>
 
 <body> 
-	<div class="wholecontainer">
-		<img src="images/SauceShots_Logo.png" class="logo w-16 h-16 sm:w-24 sm:h-24" width="150px" height="150px">
-	<div class="navbar">
-		
-		<ul class="navbarlinks">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="pages/photography.html">Photography</a></li>
-			<li><a href="pages/videography.html">Videography</a></li>
-			<li><a href="pages/aboutus.html">About Us</a></li>
-		</ul>
+
+	<div class="header">
+		<div class="navbar">
+			<img src="images/SauceShots_Logo.png" class="logo" width="150px" height="150px">
+			<ul class="navbarlinks">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="pages/photography.html">Photography</a></li>
+				<li><a href="pages/videography.html">Videography</a></li>
+				<li><a href="pages/aboutus.html">About Us</a></li>
+			</ul>
+		</div>
 	</div>
 
 	<div class="content object-center">
@@ -72,7 +71,7 @@
 		</div>
 	</div>
 	
-    <div class="section1">
+    <div class="section1 flex items-center">
 		<div class="intro">
 		    <p class="intro-title">Hi we are</p>
 		    <p class="header2">Sauce shots</p>
@@ -218,7 +217,7 @@
 		</div>
 	</div>
 	
-	</div>
+
 	
 </body>
 </html>
