@@ -1,0 +1,4 @@
+"scripts": {
+    "build:css": "postcss styles.css -o dist/styles.css"
+  }
+  

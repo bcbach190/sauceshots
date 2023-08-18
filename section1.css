@@ -3,7 +3,6 @@
     background-color: #ba1c1c;
     display: flex;
     align-items: center;
-    height: 780px;
   
 }
 
@@ -28,6 +27,7 @@
 
 .intro-content{
     font-family: 'Nunito', sans-serif;
+    font-size: 18px;
 }
 
 .intro-graphic{
