@@ -17,9 +17,6 @@ body {
     background-size: cover;
 }
 
-.logo{
-	cursor: pointer;
-}
 
 .content {
     display: flex;
